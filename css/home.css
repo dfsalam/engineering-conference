@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-image: url('../images/container.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.nav__bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 100;
+}
+
+.menu {
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.first__section {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rocket__global {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.first__section h3 {
+  font-family: "Gothic A1", sans-serif;
+  color: #ff5438;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.first__section h1 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 30px;
+  background: url(../images/letters-background.jpg) 100% no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.first__section p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #515151;
+  margin: 0 20px 20px;
+}
+
+.place {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+  color: #868686;
+}
+
+.main__program {
+  background-image: url("../images/background-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__program h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.main__line {
+  border-bottom: solid 1px #ec5242;
+  width: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 15px 15px;
+  background-color: rgba(255, 255, 255, 0.144);
+}
+
+.card h3 {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  min-width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+.card img {
+  margin: 0 0 0 15px;
+}
+
+.join__rocket {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  background-color: #ec5242;
+  padding: 18px 25px;
+  border: none;
+  margin-bottom: 15px;
+}
