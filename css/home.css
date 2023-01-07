@@ -13,7 +13,8 @@ a:visited {
 }
 
 /* Big screen nav bar */
-.desktop__nav {
+.desktop__nav,
+.social__nav {
   display: none;
 }
 
@@ -83,6 +84,7 @@ a:visited {
   margin: 20px 20px;
   background-color: #efefef;
   border: 2px solid #fff;
+  max-width: 500px;
 }
 
 .rocket__global__date {
@@ -111,7 +113,7 @@ a:visited {
 }
 
 .main__program h1,
-.featured__speakers h1 {
+#speakers h1 {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -134,7 +136,7 @@ a:visited {
   color: #ec5242;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   min-width: 80px;
   margin-left: 15px;
   margin-right: 15px;
@@ -144,7 +146,9 @@ a:visited {
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  margin-right: 15px;
+  margin: 20px 20px;
+  line-height: 20px;
+  text-align: justify;
 }
 
 .card img {
@@ -162,14 +166,21 @@ a:visited {
 }
 
 /* Featured speakers */
-.featured__speakers {
+#speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.featured__speakers h1 {
-  color: rgb(81, 84, 92);
+.featured__speakers {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#speakers h1 {
+  color: #2f3031;
 }
 
 .speaker {
@@ -179,14 +190,15 @@ a:visited {
 }
 
 .speaker img {
-  width: 100px;
-  height: 107px;
+  width: 120px;
+  height: 129px;
 }
 
 .speaker__text {
   display: flex;
   flex-direction: column;
   margin: 0 25px;
+  max-width: 326px;
 }
 
 .speaker__name {
@@ -194,7 +206,7 @@ a:visited {
   font-size: 15px;
   font-weight: 700;
   margin: 0;
-  color: rgb(81, 84, 92);
+  color: #2f3031;
 }
 
 .speaker__title {
@@ -215,7 +227,9 @@ a:visited {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 200;
-  color: rgb(112, 114, 120);
+  color: #707278;
+  line-height: 20px;
+  text-align: justify;
 }
 
 /* To hide the speakers */
@@ -226,10 +240,10 @@ a:visited {
 .speaker__more,
 .speaker__less {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  color: rgb(112, 114, 120);
-  border: 1px solid rgb(198, 199, 199);
+  color: #2f3031;
+  border: 1px solid #c6c7c7;
   text-align: center;
   width: 90%;
   padding: 15px;

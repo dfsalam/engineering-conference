@@ -12,6 +12,10 @@ a:visited {
   color: #fff;
 }
 
+.hide {
+  display: none;
+}
+
 .nav__menu {
   margin-left: 15px;
   margin-top: 20px;
@@ -63,6 +67,7 @@ a:visited {
   background-color: #fff;
   text-align: center;
   border: 1px solid #efebeb;
+  max-width: 700px;
 }
 
 .contact {
@@ -148,6 +153,7 @@ footer a:visited {
 
 footer img {
   margin-left: 10%;
+  height: 60px;
 }
 
 /* Footer */
@@ -162,6 +168,7 @@ footer img {
   color: #515151;
   text-align: center;
   margin: 20px 50px 50px;
+  max-width: 700px;
 }
 
 .logo__section img {
@@ -191,6 +198,8 @@ footer img {
   width: 375px;
   aspect-ratio: 335/186;
   margin-bottom: 25px;
+  margin-right: 12px;
+  margin-left: 12px;
   justify-content: center;
 }
 

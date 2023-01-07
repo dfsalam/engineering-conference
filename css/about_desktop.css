@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&family=Lato:wght@400;900&display=swap');
+
+@media (min-width: 768px) {
+  .desktop__nav a {
+    color: #696262;
+  }
+
+  footer a:link,
+  footer a:visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .desktop__hide {
+    display: none;
+  }
+
+  .desktop__show {
+    display: flex;
+  }
+
+  /* Big screen nav bar */
+  .nav__bar {
+    display: none;
+    height: 0;
+  }
+
+  .desktop__nav,
+  .social__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .desktop__nav img {
+    height: 60px;
+    margin-left: 120px;
+  }
+
+  .desktop__options,
+  .social__icons {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .desktop__options li,
+  .social__icons li {
+    float: left;
+    margin-left: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .desktop__options li {
+    margin-left: 50px;
+  }
+
+  .desktop__options a:hover {
+    color: #ff5438;
+  }
+
+  .campaign {
+    margin-right: 70px;
+    color: #ff5438;
+    border: 3px solid #ff5438;
+    padding: 5px 20px;
+  }
+
+  .social__nav {
+    background-color: #363434;
+    justify-content: flex-end;
+  }
+
+  .social__icons {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    margin-right: 75px;
+  }
+
+  .social__icons li {
+    font-size: 10px;
+    color: #fff;
+  }
+
+  /* Big screen nav bar */
+
+  /* Main section */
+  .main__section {
+    height: 90vh;
+  }
+
+  .rocket__global__title2 {
+    font-size: 50px;
+    max-width: 600px;
+    margin-top: 40px;
+  }
+
+  .rocket__global_p {
+    padding: 20px 40px;
+  }
+
+  /* Main section */
+
+  /* Past conferences */
+  .past__summits {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+  /* Past conferences */
+
+  /* Footer */
+  footer {
+    background-color: #2e2e2e;
+  }
+
+  footer p {
+    color: #fff;
+    max-width: 350px;
+  }
+
+  /* Footer */
+}

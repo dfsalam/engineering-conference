@@ -10,7 +10,7 @@
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 44px;
   color: #fff5e1;
 }
@@ -25,6 +25,7 @@
   margin-right: 24px;
   padding-left: 24px;
   padding-bottom: 15px;
+  color: #ec5242;
 }
 
 .hamb__menu svg {
