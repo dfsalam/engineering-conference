@@ -73,7 +73,10 @@
   
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://dfsalam.github.io/engineering-conference/)
+
+- [Video](https://dfsalam.github.io/engineering-conference/)
+
 
   
 
