@@ -1,285 +1,205 @@
-<a name="readme-top"></a>
+<a  name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+<h3><b>README</b></h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
+# 📗 Table of Contents  
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+
+- [🛠 Built With](#built-with)
+
+- [Tech Stack](#tech-stack)
+
+- [Key Features](#key-features)
+
+- [🚀 Live Demo](#live-demo)
+
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
+
+- [Setup](#setup)
+
+- [Prerequisites](#prerequisites)
+
+- [Install](#install)
+
+- [Usage](#usage)
+
+- [Run tests](#run-tests)
+
+- [Deployment](#triangular_flag_on_post-deployment)
+
+- [👥 Author](#authors)
+
 - [🔭 Future Features](#future-features)
+
 - [🤝 Contributing](#contributing)
+
 - [⭐️ Show your support](#support)
+
 - [🙏 Acknowledgements](#acknowledgements)
+
 - [❓ FAQ](#faq)
+
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Rocket Summit<a name="about-project"></a>  
 
-# 📖 [your_project_name] <a name="about-project"></a>
+> The project consists of two pages, home and about. I started with the mobile version, and using media queries, the pages are made responsive for the desktop version. In the featured speakers section the information was inserted dynamically with JS.   
 
-> Describe your project in 1 or 2 sentences.
+**Rocket Summit** is a web page, about a fictitious conference.
 
-**[your_project__name]** is a...
+  
 
 ## 🛠 Built With <a name="built-with"></a>
 
+  
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+  
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+> html, CSS, JS.
+ 
 
 ### Key Features <a name="key-features"></a>
+-  **Responsiveness**
 
-> Describe between 1-3 key features of the application.
+-  **Nav-bar and hamburguer menu**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+-  **Transitions**
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
+  
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
 
-<!-- GETTING STARTED -->
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+To get a local copy up and running, follow these steps. 
 
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
+### Prerequisites 
 
 In order to run this project you need:
+Git, VSCode, Live Server Extension.
 
-<!--
-Example command:
+### Setup  
+Open Git Bash inside the desire folder and clone this repository to your desired folder:
 
-```sh
- gem install rails
-```
- -->
+    git clone https://github.com/dfsalam/engineering-conference.git
 
-### Setup
+  
+### Install  
 
-Clone this repository to your desired folder:
+After cloning the repository you must type inside the git bash command line to access the project folder:
 
-<!--
-Example commands:
+    cd engineering-conference
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
-
 To run the project, execute the following command:
 
-<!--
-Example command:
+    code .
 
-```sh
-  rails server
-```
---->
+This command opens the VS Code inside the project folder. 
+
 
 ### Run tests
 
-To run tests, run the following command:
+This project doesn't have tests.  
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### Deployment  
 
-### Deployment
+To deploy the project on your own, you can create a new repository in your GitHub account and, using GitHub pages, make your deployment.
 
-You can deploy this project using:
 
-<!--
-Example:
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
-```sh
+ 
+## 👥 Author <a name="authors"></a>
+👤 **Diego Salamanca**
 
-```
- -->
+- GitHub: [@dfsalam](https://github.com/dfsalam)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Twitter: [@mech_programmer](https://twitter.com/mech_programmer)
 
-<!-- AUTHORS -->
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diego-salamanca-5446141b8/)
 
-## 👥 Authors <a name="authors"></a>
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>  
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
+  
 
 ## 🔭 Future Features <a name="future-features"></a>
+- [ ] **Animations and transitions**  
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+ 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+  
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/dfsalam/engineering-conference/issues).
 
-<!-- SUPPORT -->
+  
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p> 
+
+  
 
 ## ⭐️ Show your support <a name="support"></a>
+If you like this project you can gift me a 🌟.
 
-> Write a message to encourage readers to support your project
+  
 
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+  
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank my coding partners <a href="https://github.com/sajibarafatsiddiqui">@sajibarafatsiddiqui</a> and <a href="https://github.com/Nkaleth">@Nkaleth</a>
 
-I would like to thank...
+Original design idea by <a  href="https://www.behance.net/adagio07"  target="_blank"  rel="noopener">Cindy Shin in Behance</a>, according to the <a  href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons license of the design</a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
 
-<!-- FAQ (optional) -->
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+  
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+  -  **How can I study web development from anywhere in the world without an upfront payment?**
 
-- **[Question_1]**
+  
 
-  - [Answer_1]
+- You can apply now at Microverse Academy for free. Click <a href="https://www.microverse.org/?grsf=s4zvn9">here</a> for more information.
 
-- **[Question_2]**
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
+  
+
 This project is [MIT](./LICENSE) licensed.
+
+  
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
