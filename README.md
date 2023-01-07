@@ -75,7 +75,7 @@
 
 - [Live Demo Link](https://dfsalam.github.io/engineering-conference/)
 
-- [Video](https://dfsalam.github.io/engineering-conference/)
+- [Video](https://www.loom.com/share/d6cbc970d8c4451db0de7fc463860a4e)
 
 
   
