@@ -42,7 +42,7 @@ a:visited {
 
 .rocket__global__title1 {
   font-family: "Gothic A1", sans-serif;
-  color: #ff5438;
+  color: #ec5242;
   padding: 0;
   margin-bottom: 0;
 }
@@ -50,7 +50,7 @@ a:visited {
 .rocket__global__title2 {
   font-family: 'cocogoose', sans-serif;
   font-size: 30px;
-  color: #ff5438;
+  color: #ec5242;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -62,11 +62,11 @@ a:visited {
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
-  color: #515151;
+  color: #272a31;
   margin: 20px 40px;
   background-color: #fff;
   text-align: center;
-  border: 1px solid #efebeb;
+  border: 1px solid #d3d3d3;
   max-width: 700px;
 }
 
@@ -74,7 +74,6 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f0f0;
   width: 100%;
 }
 
@@ -85,8 +84,7 @@ a:visited {
   font-size: 14px;
   line-height: 25px;
   color: #515151;
-  text-align: center;
-  background-color: #f5f0f0;
+  text-align: center;  
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 5px;
@@ -98,8 +96,7 @@ address {
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
-  color: #080808;
-  background-color: #f5f0f0;
+  color: #080808;   
 }
 
 /* Logo section */
@@ -107,7 +104,7 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #e1dcdc;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .logo__section h2,
@@ -122,7 +119,7 @@ address {
 }
 
 .line {
-  border: 1px solid #ff5438;
+  border: 1px solid #ec5242;
   width: 30px;
 }
 
@@ -130,7 +127,7 @@ address {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer p {
@@ -141,18 +138,19 @@ footer p {
   color: #515151;
   margin: 20px 50px 50px;
   text-align: start;
-  width: 50%;
-  font-size: 12px;
+  width: 70%;
+  font-size: 14px;
+  
 }
 
 footer a:link,
 footer a:visited {
-  color: black;
+  color: #272a31;
   text-decoration: underline;
 }
 
 footer img {
-  margin-left: 10%;
+  margin-left: 35px;
   height: 60px;
 }
 
@@ -165,7 +163,7 @@ footer img {
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
-  color: #515151;
+  color: #272a31;
   text-align: center;
   margin: 20px 50px 50px;
   max-width: 700px;
@@ -174,7 +172,7 @@ footer img {
 .logo__section img {
   width: auto;
   max-width: 350px;
-  border: 1px solid #f5f0f0;
+  border: 1px solid #d3d3d3;
   padding: 20px 35px;
   margin: 0 25px 70px;
 }
@@ -233,7 +231,7 @@ footer img {
   align-items: center;
   justify-content: flex-start;
   background-image: url("../images/partner.png");
-  background-color: rgb(65, 66, 70);
+  background-color: #414246; /* I use this color to fit the original image */
   background-size: initial;
   background-repeat: no-repeat;
   background-position: center;

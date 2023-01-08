@@ -3,7 +3,7 @@
 
 @media (min-width: 768px) {
   .desktop__nav a {
-    color: #696262;
+    color: #272a31;
   }
 
   footer a:link,
@@ -36,7 +36,7 @@
 
   .desktop__nav img {
     height: 60px;
-    margin-left: 120px;
+    margin-left: 240px;
   }
 
   .desktop__options,
@@ -61,13 +61,13 @@
   }
 
   .desktop__options a:hover {
-    color: #ff5438;
+    color: #ec5242;
   }
 
   .campaign {
     margin-right: 70px;
-    color: #ff5438;
-    border: 3px solid #ff5438;
+    color: #ec5242;
+    border: 3px solid #ec5242;
     padding: 5px 20px;
   }
 
@@ -118,12 +118,27 @@
 
   /* Footer */
   footer {
-    background-color: #2e2e2e;
+    background-color: #272a31;
+    /* I use this color to fit the image extracted from the original design */
   }
 
   footer p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
     color: #fff;
-    max-width: 350px;
+    margin: 50px 50px 50px;
+    text-align: start;
+    width: 60%;
+    font-size: 14px;
+  }
+
+  footer img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    height: 60px;
   }
 
   /* Footer */
