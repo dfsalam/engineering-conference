@@ -13,7 +13,8 @@ a:visited {
 }
 
 /* Big screen nav bar */
-.desktop__nav {
+.desktop__nav,
+.social__nav {
   display: none;
 }
 
@@ -57,7 +58,7 @@ a:visited {
 .rocket__global h3,
 .rocket__global__place {
   font-family: "Gothic A1", sans-serif;
-  color: #ff5438;
+  color: #ec5242;
   padding: 0;
   margin-bottom: 30px;
 }
@@ -77,27 +78,31 @@ a:visited {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 12px;
+  line-height: 20px;
   color: #696262;
   margin: 20px 20px;
-  background-color: #efefef;
+  background-color: #d3d3d3;
   border: 2px solid #fff;
+  max-width: 500px;
 }
 
 .rocket__global__date {
   font-family: 'COCOGOOSE', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 0px;
+  font-size: 20px;
+  line-height: 25px;
   color: #868686;
+
+  /* I use this gray (different from the one suggested in the template) because of the background */
 }
 
 .rocket__global__place {
   font-family: 'COCOGOOSE', sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 15px;
 }
 
 .main__program {
@@ -110,12 +115,12 @@ a:visited {
   justify-content: space-around;
 }
 
-.main__program h1,
-.featured__speakers h1 {
+.main__program__title,
+.speakers__main__title {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: #fff;
 }
 
 .main__line {
@@ -126,29 +131,32 @@ a:visited {
 .card {
   display: flex;
   align-items: center;
-  margin: 15px 15px;
-  background-color: rgba(255, 255, 255, 0.144);
+  margin: 10px 10px;
+  background-color: #ffffff25;
 }
 
 .card h3 {
   color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   min-width: 80px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .card p {
   color: #fff;
   font-family: 'Lato', sans-serif;
-  font-size: 13px;
-  margin-right: 15px;
+  font-size: 12px;
+  margin: 10px 10px;
+  line-height: 16px;
+  text-align: justify;
 }
 
 .card img {
   margin: 0 0 0 15px;
+  width: 35px;
 }
 
 .join__rocket {
@@ -162,31 +170,39 @@ a:visited {
 }
 
 /* Featured speakers */
-.featured__speakers {
+#speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.featured__speakers h1 {
-  color: rgb(81, 84, 92);
+.featured__speakers {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakers__main__title {
+  color: #272a31;
 }
 
 .speaker {
   display: flex;
   flex-direction: row;
-  margin: 25px 15px;
+  margin: 10px 5px;
 }
 
 .speaker img {
-  width: 100px;
-  height: 107px;
+  width: 120px;
+  height: 129px;
 }
 
 .speaker__text {
   display: flex;
   flex-direction: column;
-  margin: 0 25px;
+  margin: 5px 14px;
+  max-width: 326px;
 }
 
 .speaker__name {
@@ -194,7 +210,7 @@ a:visited {
   font-size: 15px;
   font-weight: 700;
   margin: 0;
-  color: rgb(81, 84, 92);
+  color: #272a31dc;
 }
 
 .speaker__title {
@@ -202,12 +218,12 @@ a:visited {
   font-size: 12px;
   font-weight: 200;
   font-style: italic;
-  color: #ec5242;
+  color: #ec5342a3;
   margin: 6px 0;
 }
 
 .speaker__line {
-  border-bottom: 1px solid #888686c8;
+  border-bottom: 1px solid #d3d3d3;
   width: 20px;
 }
 
@@ -215,7 +231,9 @@ a:visited {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 200;
-  color: rgb(112, 114, 120);
+  color: #272a31bd;
+  line-height: 14px;
+  text-align: justify;
 }
 
 /* To hide the speakers */
@@ -226,10 +244,10 @@ a:visited {
 .speaker__more,
 .speaker__less {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  color: rgb(112, 114, 120);
-  border: 1px solid rgb(198, 199, 199);
+  color: #2f3031;
+  border: 1px solid #d3d3d3;
   text-align: center;
   width: 90%;
   padding: 15px;

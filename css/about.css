@@ -12,6 +12,10 @@ a:visited {
   color: #fff;
 }
 
+.hide {
+  display: none;
+}
+
 .nav__menu {
   margin-left: 15px;
   margin-top: 20px;
@@ -38,7 +42,7 @@ a:visited {
 
 .rocket__global__title1 {
   font-family: "Gothic A1", sans-serif;
-  color: #ff5438;
+  color: #ec5242;
   padding: 0;
   margin-bottom: 0;
 }
@@ -46,7 +50,7 @@ a:visited {
 .rocket__global__title2 {
   font-family: 'cocogoose', sans-serif;
   font-size: 30px;
-  color: #ff5438;
+  color: #ec5242;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -57,19 +61,19 @@ a:visited {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 28px;
-  color: #515151;
+  line-height: 25px;
+  color: #272a31bd;
   margin: 20px 40px;
   background-color: #fff;
   text-align: center;
-  border: 1px solid #efebeb;
+  border: 1px solid #d3d3d3;
+  max-width: 700px;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f0f0;
   width: 100%;
 }
 
@@ -81,7 +85,6 @@ a:visited {
   line-height: 25px;
   color: #515151;
   text-align: center;
-  background-color: #f5f0f0;
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 5px;
@@ -94,7 +97,6 @@ address {
   font-size: 15px;
   line-height: 17px;
   color: #080808;
-  background-color: #f5f0f0;
 }
 
 /* Logo section */
@@ -102,22 +104,22 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #e1dcdc;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .logo__section h2,
 .past__conferences h2,
 .partner h1 {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
-  color: rgb(48, 47, 47);
+  color: #272a31;
   margin: 25px 50px;
   text-align: center;
 }
 
 .line {
-  border: 1px solid #ff5438;
+  border: 1px solid #ec5242;
   width: 30px;
 }
 
@@ -125,29 +127,30 @@ address {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 20px;
   color: #515151;
-  margin: 20px 50px 50px;
+  margin: 20px 10px 10px;
   text-align: start;
-  width: 50%;
+  width: 70%;
   font-size: 12px;
 }
 
 footer a:link,
 footer a:visited {
-  color: black;
+  color: #272a31;
   text-decoration: underline;
 }
 
 footer img {
-  margin-left: 10%;
+  margin-left: 35px;
+  height: 40px;
 }
 
 /* Footer */
@@ -159,17 +162,18 @@ footer img {
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
-  color: #515151;
+  color: #272a31;
   text-align: center;
   margin: 20px 50px 50px;
+  max-width: 700px;
 }
 
 .logo__section img {
   width: auto;
-  max-width: 350px;
-  border: 1px solid #f5f0f0;
-  padding: 20px 35px;
-  margin: 0 25px 70px;
+  max-width: 300px;
+  border: 1px solid #d3d3d3;
+  padding: 20px 22px;
+  margin: 0 0 70px;
 }
 
 /* Past conferences */
@@ -191,6 +195,8 @@ footer img {
   width: 375px;
   aspect-ratio: 335/186;
   margin-bottom: 25px;
+  margin-right: 12px;
+  margin-left: 12px;
   justify-content: center;
 }
 
@@ -224,7 +230,7 @@ footer img {
   align-items: center;
   justify-content: flex-start;
   background-image: url("../images/partner.png");
-  background-color: rgb(65, 66, 70);
+  background-color: #414246; /* I use this color to fit the original image */
   background-size: initial;
   background-repeat: no-repeat;
   background-position: center;
