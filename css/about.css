@@ -61,8 +61,8 @@ a:visited {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 28px;
-  color: #272a31;
+  line-height: 25px;
+  color: #272a31bd;
   margin: 20px 40px;
   background-color: #fff;
   text-align: center;
@@ -170,10 +170,10 @@ footer img {
 
 .logo__section img {
   width: auto;
-  max-width: 350px;
+  max-width: 300px;
   border: 1px solid #d3d3d3;
-  padding: 20px 35px;
-  margin: 0 25px 70px;
+  padding: 20px 22px;
+  margin: 0 0 70px;
 }
 
 /* Past conferences */
