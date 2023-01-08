@@ -84,7 +84,7 @@ a:visited {
   font-size: 14px;
   line-height: 25px;
   color: #515151;
-  text-align: center;  
+  text-align: center;
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 5px;
@@ -96,7 +96,7 @@ address {
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
-  color: #080808;   
+  color: #080808;
 }
 
 /* Logo section */
@@ -140,7 +140,6 @@ footer p {
   text-align: start;
   width: 70%;
   font-size: 14px;
-  
 }
 
 footer a:link,

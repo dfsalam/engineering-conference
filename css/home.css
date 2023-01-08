@@ -94,7 +94,8 @@ a:visited {
   font-size: 20px;
   line-height: 25px;
   color: #868686;
-  /*I use this gray (different from the one suggested in the template) because of the background */ 
+
+  /* I use this gray (different from the one suggested in the template) because of the background */
 }
 
 .rocket__global__place {

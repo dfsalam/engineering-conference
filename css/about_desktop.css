@@ -34,6 +34,13 @@
     background-color: #fff;
   }
 
+  footer img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    height: 60px;
+  }
+
   .desktop__nav img {
     height: 60px;
     margin-left: 240px;
@@ -119,6 +126,7 @@
   /* Footer */
   footer {
     background-color: #272a31;
+
     /* I use this color to fit the image extracted from the original design */
   }
 
@@ -132,13 +140,6 @@
     text-align: start;
     width: 60%;
     font-size: 14px;
-  }
-
-  footer img {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 20%;
-    height: 60px;
   }
 
   /* Footer */
