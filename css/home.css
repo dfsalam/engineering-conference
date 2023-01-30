@@ -22,7 +22,7 @@ a:visited {
 
 /* First section */
 .container {
-  background-image: url('../images/back.png');
+  background-image: url('../images/back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -106,7 +106,7 @@ a:visited {
 }
 
 .main__program {
-  background-image: url("../images/background-main.png");
+  background-image: url("../images/background-main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

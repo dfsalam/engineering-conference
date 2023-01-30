@@ -22,7 +22,7 @@ a:visited {
 }
 
 .main__section {
-  background-image: url('../images/container.png');
+  background-image: url('../images/container.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
